@@ -9,7 +9,7 @@ describe('Testes da função HandlerElephants', () => {
     expect(handlerElephants('AVAILABILITY')).toBeNull();
     expect(handlerElephants('Availability')).toBeNull();
   });
-  it('Verifica a função computeData', () => {
+  it('Verifica se a função computeData retorna o esperado', () => {
     expect(handlerElephants('count')).toBe(4);
     expect(handlerElephants('names')).toContain('Jefferson');
     expect(handlerElephants('names')).toContain('Ilana');
